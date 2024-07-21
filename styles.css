@@ -12,7 +12,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     display: inline-block;
-    width: 200px;
+    width: 300px;
     cursor: pointer;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -23,12 +23,24 @@ body {
     transform: scale(1.05);
 }
 
+.cookie img, .details img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
 h1 {
     color: #333;
 }
 
 p {
     color: #666;
+    text-align: left;
+}
+
+.details p {
+    margin: 10px 0;
 }
 
 button {
@@ -40,6 +52,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s;
+    display: block;
+    margin: 20px auto 0;
 }
 
 button:hover {
