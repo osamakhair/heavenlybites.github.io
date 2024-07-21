@@ -66,6 +66,28 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Nutrition Facts Table Styles */
+.nutrition-facts {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.nutrition-facts th, .nutrition-facts td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.nutrition-facts th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.nutrition-facts tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
     body {
@@ -82,5 +104,10 @@ button:hover {
 
     p, button {
         font-size: 14px;
+    }
+
+    .nutrition-facts th, .nutrition-facts td {
+        font-size: 12px;
+        padding: 6px;
     }
 }
